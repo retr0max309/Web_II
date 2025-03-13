@@ -29,7 +29,7 @@ form {
 .mainCard {
   width: 40vw;
   border-radius: 25px;
-  background-color: #fff;
+  background-color: lightblue;
   padding: 25px;
 }
 
@@ -75,6 +75,7 @@ form {
   overflow-y: scroll;
   max-height: 60vh;
   height: 60vh;
+  background-color: beige;
 }
 
 .card {
