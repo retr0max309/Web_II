@@ -1,0 +1,80 @@
+.elemento {
+    display: flex;
+    background-color: #21A4D9;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+}
+
+.elemento__titulo {
+    color: rgb(49, 49, 49);
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center; 
+    margin-bottom: 0.5rem; 
+}
+
+.elemento__parrafo {
+    font-size: 1rem;
+    color: rgb(49, 49, 49);
+    text-align: center;
+    max-width: 600px;
+    margin-bottom: 2rem; 
+    margin-left: 0rem;
+    margin-top: 1rem;
+    margin-right: 3rem;
+    font-weight: bold;
+}
+
+.elemento__figura {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0rem;
+    margin-right: 2rem;
+}
+
+.elemento__figura--imagen {
+    height: 300px; /* Asegúrate de que esto coincida con el atributo height en el HTML */
+    width: 280px;  /* Asegúrate de que esto coincida con el atributo width en el HTML */
+    margin-bottom: 6rem;
+    margin-right: 0; /* Ajusta el margen derecho si es necesario */
+    object-fit: cover; /* Asegura que la imagen se ajuste correctamente dentro de su contenedor */
+}
+
+.elemento__figura--texto {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-top: 1rem; 
+    text-align: center; 
+}
+
+.elemento__boton {
+    font-family: 'Montserrat', sans-serif;
+    color: #e21919;
+    border: 3px solid #e21919;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
+
+body {
+    background-color: #E94383;
+}
+.elemento__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.elemento__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
