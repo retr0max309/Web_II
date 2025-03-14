@@ -38,7 +38,7 @@
     
     const checkComplete=()=>{
         const i =document.createElement('i')// creacion de un icono 
-        i.classList.add("far","fa-check-square","icon")//dando estilos al icono
+        i.classList.add("far","fa-check-square","icon")/
         i.addEventListener("click",color)
         return i;
     }
